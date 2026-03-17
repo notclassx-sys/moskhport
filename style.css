@@ -882,13 +882,14 @@ a.contact-link:hover { text-decoration: underline; }
 @media (max-width: 1024px) {
   .hero {
     flex-direction: column;
-    text-align: center;
-    padding-top: 120px;
+    text-align: left;
+    padding-top: 100px;
     padding-bottom: 4rem;
     min-height: auto;
+    align-items: flex-start;
   }
   .hero-content { max-width: 100%; }
-  .hero-btns { justify-content: center; }
+  .hero-btns { justify-content: flex-start; }
   .hero-visual { 
     display: flex;
     justify-content: center;

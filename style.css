@@ -888,7 +888,22 @@ a.contact-link:hover { text-decoration: underline; }
   }
   .hero-content { max-width: 100%; }
   .hero-btns { justify-content: center; }
-  .hero-visual { display: none; }
+  .hero-visual { 
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 2rem;
+  }
+  .hero-photo-wrap {
+    width: min(320px, 90vw);
+    height: min(420px, 120vw);
+  }
+  .hero-photo-bg {
+    top: 15px;
+    left: 15px;
+    right: -15px;
+    bottom: -15px;
+  }
   .hero-sub { margin: 0 auto 2rem; }
   .hero-bg-text { font-size: 28vw; }
   .about-grid { grid-template-columns: 1fr; gap: 3rem; }
